@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "title": "Filtrar por domínio",
+      "items": [
+        { "type": "search", "title": "<exemplo: substitua pelos seus domínios>", "query": "[\"dominio\":<preencher>]" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Filtrar por status",
+      "items": [
+        { "type": "search", "title": "Aguardando resposta de terceiros", "query": "[\"status\":aguardando-resposta]" },
+        { "type": "search", "title": "Bloqueados", "query": "[\"status\":bloqueado]" },
+        { "type": "search", "title": "Em andamento", "query": "[\"status\":em-andamento]" }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "Filtrar por prioridade",
+      "items": [
+        { "type": "search", "title": "Alta prioridade", "query": "[\"prioridade\":alta]" },
+        { "type": "search", "title": "Média prioridade", "query": "[\"prioridade\":media]" }
+      ]
+    }
+  ]
+}
